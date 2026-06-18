@@ -1,0 +1,5 @@
+displayName = Longer Player and World Names
+author = flye
+version = 1.0
+side = Client
+buildIgnore = lib\*, .idea\*, .vs\*, *.tmp, Properties\*, *.csproj, *.user, obj\*, bin\*, *.config, .editorconfig, TemplateEngineHost\*
