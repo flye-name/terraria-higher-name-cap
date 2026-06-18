@@ -5,13 +5,15 @@ using Terraria.ModLoader;
 
 namespace RaisedNameCap.Core;
 
-public class PlayerRename : ModSystem
+public class PlayerEdit : ModSystem
 {
 	public override void Load()
 	{
+		IL_UICharacterCreation.Click_Naming += IncreaseCap;
+		IL_UICharacterCreation.Click_NamingAndCreating += IncreaseCap;
 		IL_UICharacterListItem.RenameButtonClick += IncreaseCap;
 	}
-	
+
 	void IncreaseCap(ILContext il)
 	{
 		ILCursor c = new(il);
