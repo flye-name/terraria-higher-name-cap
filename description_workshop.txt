@@ -1,3 +1,3 @@
-Raises the player and world name caps from 20/27 respectively to 45.
+Raises the player and world name caps from 20/27 respectively to 45. The longer names will NOT reset if you disable the mod!
 
 Unlike an older released mod on the workshop, the raised cap works on both creation and renaming.
