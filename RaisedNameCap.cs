@@ -9,6 +9,6 @@ namespace RaisedNameCap
 {
 	public class RaisedNameCap : Mod
 	{
-
+		public const int NEW_CAP = 50;
 	}
 }
